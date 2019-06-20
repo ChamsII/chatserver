@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.1",
+  "description": "Server app chat",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js"
+  },
+  "author": "Hacham",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.0",
+    "@types/socket.io": "^2.1.2",
+    "express": "^4.17.1",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^5.0.1",
+    "typescript": "^3.5.2"
+  }
+}
